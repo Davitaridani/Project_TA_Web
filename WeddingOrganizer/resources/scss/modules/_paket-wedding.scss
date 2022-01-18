@@ -11,6 +11,7 @@ serif;
 // color
 $color-pink:#ee9e9e;
 $color-pink2:#fa8282;
+$color-pink3:#fad8d8;
 $bg-section:#fffdfdea;
 $bg-section:#f9f9f9;
 // Font Weight
@@ -24,13 +25,16 @@ $black: 900;
 //     line-height: 1.5;
 // }
 .section-paket-wedding-sect-2 {
+    background-image: linear-gradient(180deg, $color-pink2, $color-pink, $color-pink3);
     .blocks-items {
         .item-text {
             .text-title {
                 padding: 70px 0 30px;
                 h3 {
-                    font-size: 30px;
-                    font-family: $font-poppins;
+                    font-size: 35px;
+                    color: rgb(78, 78, 78);
+                    font-weight: $semibold;
+                    font-family: $font-halant;
                 }
             }
             .text-desc {
@@ -55,12 +59,13 @@ $black: 900;
         }
         .card {
             margin: 70px 0 100px;
-            // box-shadow: 00 4px 8px 0 rgb(0 0 0 / 20%), 0 5px 10px 0 rgb(0 0 0 / 19%);
+            box-shadow: 0 4px 3px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 19%);
             .pict {
                 padding: 15px;
                 margin-bottom: -10px;
                 img {
                     border-radius: 15px;
+                    height: 240px;
                 }
             }
             .card-body {
@@ -82,6 +87,10 @@ $black: 900;
                         font-size: 17px;
                         color: #fff;
                     }
+                }
+                .link-paket:hover {
+                    background-color: #f1b1b1;
+                    color: #333;
                 }
             }
         }

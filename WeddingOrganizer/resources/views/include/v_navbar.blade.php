@@ -21,18 +21,28 @@
 						Paket
 					</a>
 					<ul class="dropdown-menu border-0" aria-labelledby="navbarScrollingDropdown">
-						<li><a class="dropdown-item" href="#">Wedding</a></li>
-						<li><a class="dropdown-item" href="#">Prewedding</a></li>
-						<li><a class="dropdown-item" href="#">Lamaran</a></li>
+						<li><a class="dropdown-item" href="/paket-wedding">Wedding</a></li>
+						<li><a class="dropdown-item" href="/paket-prewedding">Prewedding</a></li>
+						<li><a class="dropdown-item" href="/paket-lamaran">Lamaran</a></li>
 						<li><a class="dropdown-item" href="#">Dekorasi</a></li>
 						<li><a class="dropdown-item" href="#">Make Up</a></li>
 					</ul>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Pricing</a>
+					<a class="nav-link" href="/contact">Contact Us</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Pricing</a>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+						data-bs-toggle="dropdown" aria-expanded="false">
+						Galeri
+					</a>
+					<ul class="dropdown-menu border-0" aria-labelledby="navbarScrollingDropdown">
+						<li><a class="dropdown-item" href="/galeri-wedding">Wedding</a></li>
+						<li><a class="dropdown-item" href="/galeri-prewedding">Prewedding</a></li>
+						<li><a class="dropdown-item" href="/paket-lamaran">Lamaran</a></li>
+						<li><a class="dropdown-item" href="#">Dekorasi</a></li>
+						<li><a class="dropdown-item" href="/galeri-makeup">Make Up</a></li>
+					</ul>
 				</li>
 
 				<li class="nav-item">

@@ -21,7 +21,7 @@
 
 
 {{-- Saection paket wedding ect 2 --}}
-<section class="section-paket-wedding-sect-2 bg-light">
+<section class="section-paket-wedding-sect-2">
 	<div class="container">
 		<div class="inner text-content">
 			<div class="blocks-items">
@@ -49,7 +49,7 @@
 					<div class="col-md-4">
 						<div class="card">
 							<div class="pict">
-								<img src="{{ asset('assets/img/thumbnail (8).jpg') }}" alt="" class="img card-img">
+								<img src="{{ asset('assets/img/img-home-4.jpg') }}" alt="" class="img card-img">
 							</div>
 							<div class="card-body text-center">
 								<div class="title-card">
@@ -64,7 +64,7 @@
 					<div class="col-md-4">
 						<div class="card">
 							<div class="pict">
-								<img src="{{ asset('assets/img/thumbnail (8).jpg') }}" alt="" class="img card-img">
+								<img src="{{ asset('assets/img/thumbnail (6).jpg') }}" alt="" class="img card-img">
 							</div>
 							<div class="card-body text-center">
 								<div class="title-card ">
@@ -79,7 +79,7 @@
 					<div class="col-md-4">
 						<div class="card">
 							<div class="pict">
-								<img src="{{ asset('assets/img/thumbnail (8).jpg') }}" alt="" class="img card-img">
+								<img src="{{ asset('assets/img/img-home-3.jpg') }}" alt="" class="img card-img">
 							</div>
 							<div class="card-body text-center">
 								<div class="title-card ">
@@ -91,21 +91,7 @@
 							</div>
 						</div>
 					</div>
-					{{-- <div class="col-md-4">
-						<div class="card">
-							<div class="pict">
-								<img src="{{ asset('assets/img/thumbnail (8).jpg') }}" alt="" class="img card-img">
-							</div>
-							<div class="card-body text-center">
-								<div class="title-card ">
-									<h3>Paket D</h3>
-								</div>
-								<div class="link-paket">
-									<a href="#">Lihat Paket</a>
-								</div>
-							</div>
-						</div>
-					</div> --}}
+
 				</div>
 			</div>
 		</div>

@@ -6,7 +6,7 @@
 
 
 {{-- Saection paket wedding ect 2 --}}
-<section class="section-paket-wedding-sect-2 bg-light">
+<section class="section-paket-wedding-sect-2">
 	<div class="container">
 		<div class="inner text-content">
 			<div class="blocks-items">
