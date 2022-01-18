@@ -1,0 +1,55 @@
+@use "globals";
+// Untuk Title
+$font-playfair :'Playfair Display',
+serif;
+$font-opensans:'Open Sans',
+sans-serif;
+// Untuk Paragraf
+$font-montserrat: 'Montserrat',
+sans-serif;
+$font-halant: 'Halant',
+serif;
+// color
+$color-pink:#ee9e9e;
+$color-pink2:#fa8282;
+$bg-section:#fffdfdea;
+// Font Weight
+$light: 300;
+$reguler: 400;
+$medium: 500;
+$semibold:600;
+$bold: 700;
+$black: 900;
+.section-hero-image-banner {
+    .blocks-items {
+        .pict {
+            .background-banner-contact {
+                height: 550px;
+                background-position: center;
+                background-size: cover;
+                // opacity: 0.8;
+                .text-title h5 {
+                    font-family: $font-playfair;
+                    font-weight: $bold;
+                    letter-spacing: 2px;
+                    font-size: 50px;
+                    padding-top: 250px;
+                }
+            }
+        }
+    }
+}
+
+.section-contact-sect-2 {
+    .blocks-items {
+        .text-title h5 {
+            font-family: $font-halant;
+            font-weight: $medium;
+            margin: 65px 0 40px;
+            font-size: 35px;
+        }
+        .pict img {
+            height: 500px;
+        }
+    }
+}

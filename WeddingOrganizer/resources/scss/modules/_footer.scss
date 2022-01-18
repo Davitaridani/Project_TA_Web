@@ -1,0 +1,62 @@
+@use "globals";
+// Untuk Title
+$font-playfair :'Playfair Display',
+serif;
+$font-opensans:'Open Sans',
+sans-serif;
+// Untuk Paragraf
+$font-montserrat: 'Montserrat',
+sans-serif;
+$font-halant: 'Halant',
+serif;
+// color
+$color-pink:#ee9e9e;
+$color-pink2:#fa8282;
+$bg-section:#fffdfdea;
+// Font Weight
+$light: 300;
+$reguler: 400;
+$medium: 500;
+$semibold:600;
+$bold: 700;
+$black: 900;
+// Footer
+.footer {
+    // Footer Atas
+    .footer-top {
+        // height: 300px;
+        background-color: #efefef;
+        .item-desc {
+            width: 350px;
+            .title-foot {
+                h3 {
+                    font-family: $font-playfair;
+                    font-weight: $bold;
+                    font-size: 30px;
+                    span {
+                        color: #fa8282;
+                    }
+                }
+            }
+        }
+    }
+    // Footer Bawah
+    .footer-bottom {
+        background-color: #635e5e;
+        margin-bottom: 0;
+        color: #fff;
+        .blocks-items {
+            .text-desc-copyright {
+                height: 50px;
+                p {
+                    line-height: 50px;
+                }
+            }
+            .text-desc-by {
+                p {
+                    line-height: 50px;
+                }
+            }
+        }
+    }
+}

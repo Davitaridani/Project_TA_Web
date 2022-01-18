@@ -1,0 +1,85 @@
+@use "globals";
+// Untuk Title
+$font-raleway :'Raleway',
+sans-serif;
+$font-great:'Great Vibes',
+cursive;
+$font-poppins: 'Poppins',
+sans-serif;
+$font-halant: 'Halant',
+serif;
+// color
+$color-pink:#ee9e9e;
+$color-pink2:#fa8282;
+$bg-section:#fffdfdea;
+$bg-section:#f9f9f9;
+// Font Weight
+$light: 300;
+$reguler: 400;
+$medium: 500;
+$semibold:600;
+$bold: 700;
+$black: 900;
+// p {
+//     line-height: 1.5;
+// }
+.section-paket-wedding-sect-2 {
+    .blocks-items {
+        .item-text {
+            .text-title {
+                padding: 70px 0 30px;
+                h3 {
+                    font-size: 30px;
+                    font-family: $font-poppins;
+                }
+            }
+            .text-desc {
+                padding-bottom: 60px;
+                p {
+                    font-size: 17px;
+                    font-family: $font-raleway;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+}
+
+.section-paket-wedding-sect-3 {
+    .blocks-items-card {
+        .card:hover {
+            transform: scale3D(10px, 10px);
+        }
+        .card {
+            margin: 70px 0 100px;
+            box-shadow: 00 4px 8px 0 rgb(0 0 0 / 20%), 0 5px 10px 0 rgb(0 0 0 / 19%);
+            .pict {
+                padding: 15px;
+                margin-bottom: -10px;
+                img {
+                    border-radius: 15px;
+                }
+            }
+            .card-body {
+                .title-card {
+                    h3 {
+                        font-family: $font-raleway;
+                        font-size: 27px;
+                        height: 55px;
+                    }
+                }
+                .link-paket {
+                    // background-color: #ee9e9e;
+                    display: inline-block;
+                    // padding: 15px 23px;
+                    margin-bottom: 10px;
+                    a {
+                        text-decoration: none;
+                        font-size: 17px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
