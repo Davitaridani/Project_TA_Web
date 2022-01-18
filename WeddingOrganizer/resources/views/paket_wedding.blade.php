@@ -56,7 +56,7 @@
 									<h3>Paket A</h3>
 								</div>
 								<div class="link-paket">
-									<a href="/detail-paket-wedding" class="btn btn-danger">Lihat Detail</a>
+									<a href="/detail-paket-wedding" class="item-btn">Lihat Detail</a>
 								</div>
 							</div>
 						</div>
@@ -71,7 +71,7 @@
 									<h3>Paket B</h3>
 								</div>
 								<div class="link-paket">
-									<a href="/detail-paket-wedding" class="btn btn-danger">Lihat Detail</a>
+									<a href="/detail-paket-wedding" class="item-btn">Lihat Detail</a>
 								</div>
 							</div>
 						</div>
@@ -86,7 +86,7 @@
 									<h3>Paket C</h3>
 								</div>
 								<div class="link-paket">
-									<a href="/detail-paket-wedding" class="btn btn-danger">Lihat Detail</a>
+									<a href="/detail-paket-wedding" class="item-btn">Lihat Detail</a>
 								</div>
 							</div>
 						</div>
