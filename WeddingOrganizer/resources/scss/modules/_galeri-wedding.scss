@@ -46,12 +46,13 @@ p {
         }
         .item-pict {
             margin-bottom: 100px;
-            .g-10 {
-                --bs-gutter-x: 16px;
-                --bs-gutter-y: 16px;
-                // img {
-                //     padding-top: 10px;
-                // }
+            .g-20 {
+                --bs-gutter-x: 20px;
+                --bs-gutter-y: 20px;
+                img:hover {
+                    box-shadow: 0 2px 5px 2px rgb(0 0 0 / 20%), 0 8px 10px 0 rgb(0 0 0 / 19%);
+                    // transform: scale(1.1);
+                }
             }
         }
     }

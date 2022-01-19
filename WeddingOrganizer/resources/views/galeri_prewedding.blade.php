@@ -39,7 +39,7 @@
 				</div>
 
 				<div class="item-pict">
-					<div class="row g-10" data-masonry='{"percentPosition": true }'>
+					<div class="row g-20" data-masonry='{"percentPosition": true }'>
 						<div class="col-md-6 col-lg-3">
 							<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (8).jpg') }}" alt="">
 						</div>
