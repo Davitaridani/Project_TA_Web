@@ -39,8 +39,8 @@
 					<ul class="dropdown-menu border-0" aria-labelledby="navbarScrollingDropdown">
 						<li><a class="dropdown-item" href="/galeri-wedding">Wedding</a></li>
 						<li><a class="dropdown-item" href="/galeri-prewedding">Prewedding</a></li>
-						<li><a class="dropdown-item" href="/paket-lamaran">Lamaran</a></li>
-						<li><a class="dropdown-item" href="#">Dekorasi</a></li>
+						<li><a class="dropdown-item" href="#">Lamaran</a></li>
+						<li><a class="dropdown-item" href="/galeri-dekorasi">Dekorasi</a></li>
 						<li><a class="dropdown-item" href="/galeri-makeup">Make Up</a></li>
 					</ul>
 				</li>

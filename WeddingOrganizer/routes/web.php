@@ -25,7 +25,7 @@ route::view('/about', 'v_about');
 route::view('/galeri', 'v_galeri');
 route::view('/about', 'v_about');
 route::view('/contact', 'v_contact');
-route::view('/prewedding', 'galeri_prewedding');
+route::view('/galeri-prewedding', 'galeri_prewedding');
 route::view('/galeri-wedding', 'galeri_wedding');
 route::view('/galeri-dekorasi', 'galeri_dekorasi');
 route::view('/galeri-makeup', 'galeri_makeup');
