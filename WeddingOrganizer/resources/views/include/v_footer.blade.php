@@ -121,59 +121,89 @@
 				<div class="block-items">
 					<div class="row">
 						<div class="col-md-4">
-							<div class="item-desc">
-								<div class="title-foot">
-									<h3>Dhewi <span>Lestari</span></h3>
+							<div class="item-text">
+								<div class="text-title-foot">
+									<a href="/">
+										<h3>Dhewi <span>Lestari</span></h3>
+									</a>
 								</div>
-								<div class="desc-foot">
+								<div class="text-desc-foot">
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates deleniti reprehenderit
 										doloremque labore similique libero quidem, quod asperiores quaerat quas ratione totam fugit vero
 										repudiandae.</p>
 								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="item-layanan">
-								<div class="title-foot">
-									<h3>Layanan</h3>
-									<div class="text-layan">
-										<ul>
-											<li class="nav-item">
-												Wedding Organizer
-											</li>
-											<li class="nav-item">
-												Paket Wedding
-											</li>
-											<li class="nav-item">
-												Paket Prewedding
-											</li>
-											<li class="nav-item">
-												Paket Dekorasi
-											</li>
-											<li class="nav-item">
-												Paket Lamaran
-											</li>
-											<li class="nav-item">
-												Paket Dokumentasi
-											</li>
-										</ul>
-									</div>
+								<div class="item-sosmed">
+									<ul>
+										<li class="nav-item">
+											<a href="#" class="nav-link text-secondary"><span class="iconify"
+													data-icon="entypo-social:facebook" data-width="20"></span>
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="#" class="nav-link text-secondary"><span class="iconify" data-icon="ri:instagram-fill"
+													data-width="20"></span>
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="#" class="nav-link text-secondary"><span class="iconify" data-icon="iconoir:tiktok"
+													data-width="20"></span>
+											</a>
+										</li>
+									</ul>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-3">
-							<div class="item-informasi">
-								<div class="title-infor">
-									<h3>Informasi</h3>
+							<div class="item-text">
+								<div class="text-title-foot">
+									<h3>Info Layanan</h3>
+								</div>
+								<div class="item-text-layan">
+									<ul>
+										<li class="nav-item">
+											<a href="" class="nav-link"> Paket Wedding</a>
+										</li>
+										<li class="nav-item">
+											<a href="" class="nav-link">Paket Prewedding</a>
+										</li>
+										<li class="nav-item">
+											<a href="" class="nav-link">Paket Dekorasi</a>
+										</li>
+										<li class="nav-item">
+											<a href="" class="nav-link">Paket Lamaran</a>
+										</li>
+										<li class="nav-item">
+											<a href="" class="nav-link">Paket Dokumentasi</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="item-text">
+								<div class="text-title-infor">
+									<h3>Tentang Kami </h3>
 								</div>
 								<div class="text-infor">
 									<ul>
-										<li class="nav-item">Home</li>
-										<li class="nav-item">About</li>
-										<li class="nav-item">Paket</li>
-										<li class="nav-item">Galeri</li>
-										<li class="nav-item">Contact</li>
-										<li class="nav-item">Blog</li>
+										<li class="nav-item">
+											<a href="" class="nav-link">Home</a>
+										</li>
+										<li class="nav-item">
+											<a href="" class="nav-link"> About</a>
+										</li>
+										<li class="nav-item">
+											<a href="" class="nav-link"> Paket</a>
+										</li>
+										<li class="nav-item">
+											<a href="" class="nav-link">Galeri</a>
+										</li>
+										<li class="nav-item">
+											<a href="" class="nav-link">ontact</a>
+										</li>
+										<li class="nav-item">
+											<a href="" class="nav-link"> Blog</a>
+										</li>
 									</ul>
 								</div>
 							</div>
