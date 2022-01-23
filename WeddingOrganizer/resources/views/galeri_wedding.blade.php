@@ -20,7 +20,6 @@
 		</div>
 </section>
 
-
 {{-- Section galeri prewedding sect 2 --}}
 <section class="section-prewedding-sect-2 galeri-sect-2">
 	<div class="container">
@@ -39,43 +38,66 @@
 				</div>
 
 				<div class="item-pict">
-					<div class="row g-10" data-masonry='{"percentPosition": true }'>
-						<div class="col-md-6 col-lg-3 py-2">
-							<a href="" data-lightbox="Prewedding-1">
-								<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (8).jpg') }}" alt=""> </a>
+					<div class="row g-20" data-masonry='{"percentPosition": true }'>
+						<div class="col-md-6 col-lg-4">
+							<a href="{{  asset('assets/img/10.jpg')  }}" data-lightbox="roadtrip" data-title="My caption">
+								<img class="img img-fluid" src="{{ asset('assets/img/10.jpg') }}" alt="">
+							</a>
+						</div>
 
+						<div class="col-md-6 col-lg-4">
+							<a href="{{ asset('assets/img/prewedding/prewedding (1).jpg') }}" data-lightbox="roadtrip"
+								data-title="My caption">
+								<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (1).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3 py-2">
-							<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (1).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4">
+							<a href="{{ asset('assets/img/prewedding/prewedding (2).jpg') }}" data-lightbox="roadtrip"
+								data-title="My caption"> <img class="img img-fluid"
+									src="{{ asset('assets/img/prewedding/prewedding (2).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3 py-2">
-							<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (2).jpg') }}" alt="">
+
+						<div class="col-md-6 col-lg-4">
+							<a href="{{ asset('assets/img/prewedding/prewedding (3).jpg') }}" data-lightbox="roadtrip"
+								data-title="My caption">
+								<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (3).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3 py-2">
-							<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (3).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4">
+							<a href="{{ asset('assets/img/prewedding/prewedding (4).jpg') }}" data-lightbox="roadtrip"
+								data-title="My caption">
+								<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (4).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3 py-2">
-							<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (4).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4">
+							<a href="{{ asset('assets/img/prewedding/prewedding (5).jpg') }}" data-lightbox="roadtrip"
+								data-title="My caption">
+								<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (5).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3 py-2">
-							<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (5).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4">
+							<a href="{{ asset('assets/img/prewedding/prewedding (6).jpg') }}" data-lightbox="roadtrip"
+								data-title="My caption">
+								<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (6).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3 py-2">
-							<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (6).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4">
+							<a href="{{ asset('assets/img/prewedding/prewedding (7).jpg') }}" data-lightbox="roadtrip"
+								data-title="My caption">
+								<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (7).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3 py-2">
-							<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (7).jpg') }}" alt="">
-						</div>
-						<div class="col-md-6 col-lg-3 py-2">
+						<div class="col-md-6 col-lg-4">
 							<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (12).jpg') }}" alt="">
 						</div>
-						<div class="col-md-6 col-lg-3 py-2">
+						<div class="col-md-6 col-lg-4">
 							<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (14).jpg') }}" alt="">
 						</div>
-						<div class="col-md-6 col-lg-3 py-2">
+						<div class="col-md-6 col-lg-4">
 							<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (10).jpg') }}" alt="">
 						</div>
-						<div class="col-md-6 col-lg-3 py-2">
+						<div class="col-md-6 col-lg-4">
 							<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (22).jpg') }}" alt="">
 						</div>
 

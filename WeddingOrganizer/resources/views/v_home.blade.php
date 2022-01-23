@@ -668,14 +668,6 @@
 			<div class="blocks-items">
 				<div class="row">
 					<div class="col-md-6">
-						<div class="link-yt">
-							<iframe width="550" height="330" src="https://www.youtube.com/embed/kgMgKKeY7s8"
-								title="YouTube video player" frameborder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-								allowfullscreen></iframe>
-						</div>
-					</div>
-					<div class="col-md-6">
 						<div class="item-text">
 							<div class="text-title">
 								<h3>Sukseskan Acaramu Bersama Kami</h3>
@@ -688,6 +680,14 @@
 									ratione facere labore, voluptatem at, quasi vitae optio aliquid dolorum quas reiciendis porro? Ut,
 									fugiat rem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ab?</p>
 							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="link-yt">
+							<iframe width="550" height="330" src="https://www.youtube.com/embed/kgMgKKeY7s8"
+								title="YouTube video player" frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen></iframe>
 						</div>
 					</div>
 				</div>

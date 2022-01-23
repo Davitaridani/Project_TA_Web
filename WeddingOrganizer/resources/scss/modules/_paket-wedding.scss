@@ -51,12 +51,12 @@ $black: 900;
 
 .section-paket-wedding-sect-3 {
     .blocks-items-card {
-        .card:hover {
-            transform: scale(1.11);
-            transition: 0.5s;
-            // cursor: pointer;
-            box-shadow: 00 4px 8px 0 rgb(0 0 0 / 20%), 0 5px 10px 0 rgb(0 0 0 / 19%);
-        }
+        // .card:hover {
+        //     transform: scale(1.11);
+        //     transition: 0.5s;
+        //     // cursor: pointer;
+        //     box-shadow: 00 4px 8px 0 rgb(0 0 0 / 20%), 0 5px 10px 0 rgb(0 0 0 / 19%);
+        // }
         .card {
             margin: 70px 0 100px;
             box-shadow: 0 4px 3px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 19%);
@@ -66,6 +66,14 @@ $black: 900;
                 img {
                     border-radius: 15px;
                     height: 240px;
+                    transform: scale(1);
+                    transition: 0.3s ease-in-out;
+                    cursor: pointer;
+                }
+                .img:hover {
+                    transform: scale(1.1);
+                    // transition: 0.5s ease-in-out;
+                    // cursor: pointer;
                 }
             }
             .card-body {

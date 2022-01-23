@@ -40,41 +40,77 @@
 
 				<div class="item-pict">
 					<div class="row g-20" data-masonry='{"percentPosition": true }'>
-						<div class="col-md-6 col-lg-3 ">
-							<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (1).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4 ">
+							<a href="{{ asset('assets/img/dekor/dekor (1).jpg') }}" data-lightbox="roadtrip" data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (1).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3 ">
-							<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (2).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4 ">
+							<a href="{{ asset('assets/img/dekor/dekor (2).jpg') }}" data-lightbox="roadtrip" data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (2).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3 ">
-							<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (4).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4 ">
+							<a href="{{ asset('assets/img/dekor/dekor (4).jpg') }}" data-lightbox="roadtrip" data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (4).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3 ">
-							<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (5).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4 ">
+							<a href="{{ asset('assets/img/dekor/dekor (5).jpg') }}" data-lightbox="roadtrip" data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (5).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3 ">
-							<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (6).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4 ">
+							<a href="{{ asset('assets/img/dekor/dekor (6).jpg') }}" data-lightbox="roadtrip" data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (6).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3 ">
-							<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (7).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4 ">
+							<a href="{{ asset('assets/img/dekor/dekor (7).jpg') }}" data-lightbox="roadtrip" data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (7).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3 ">
-							<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (8).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4 ">
+							<a href="{{ asset('assets/img/dekor/dekor (8).jpg') }}" data-lightbox="roadtrip" data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (8).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3 ">
-							<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (9).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4 ">
+							<a href="{{ asset('assets/img/dekor/dekor (9).jpg') }}" data-lightbox="roadtrip" data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (9).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3 ">
-							<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (10).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4 ">
+							<a href="{{ asset('assets/img/dekor/dekor (10).jpg') }}" data-lightbox="roadtrip" data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (10).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3 ">
-							<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (11).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4 ">
+							<a href="{{ asset('assets/img/dekor/dekor (11).jpg') }}" data-lightbox="roadtrip" data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (11).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3 ">
-							<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (12).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4 ">
+							<a href="{{ asset('assets/img/dekor/dekor (12).jpg') }}" data-lightbox="roadtrip" data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (12).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3 ">
-							<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (3).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4 ">
+							<a href="{{ asset('assets/img/dekor/dekor (3).jpg') }}" data-lightbox="roadtrip" data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/dekor/dekor (3).jpg') }}" alt="">
+							</a>
 						</div>
 
 					</div>

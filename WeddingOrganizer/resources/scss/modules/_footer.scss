@@ -78,7 +78,7 @@ $black: 900;
         }
         .col-md-3 {
             .item-text {
-                padding: 110px 0 70px;
+                padding: 115px 0 70px;
                 .text-title-foot {
                     padding-bottom: 15px;
                     h3 {
@@ -143,18 +143,25 @@ $black: 900;
         color: #fff;
         .blocks-items {
             .text-desc-copyright {
-                height: 50px;
-                line-height: 50px;
-                // padding: 20px 0;
+                // height: 50px;
+                // line-height: 50px;
+                padding: 25px 0;
                 p {
-                    font-size: 14px;
+                    font-size: 13px;
+                    // line-height: 50px;
+                    letter-spacing: 1px;
+                    span {
+                        color: $color-pink;
+                    }
                 }
             }
-            .text-desc-by {
-                p {
-                    line-height: 50px;
-                }
-            }
+            // .text-desc-by {
+            //     p {
+            //         letter-spacing: 1px;
+            //         font-size: 13px;
+            //         line-height: 50px;
+            //     }
+            // }
         }
     }
 }

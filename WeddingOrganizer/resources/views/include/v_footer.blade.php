@@ -128,9 +128,9 @@
 									</a>
 								</div>
 								<div class="text-desc-foot">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates deleniti reprehenderit
-										doloremque labore similique libero quidem, quod asperiores quaerat quas ratione totam fugit vero
-										repudiandae.</p>
+									<p>Pesona Mutiara Tidar 2, Blok BA Nomor 20, Karang Tengah, Karangwidoro, Kec. Dau, Malang, Jawa Timur
+										65151
+										Email: contact@eloiseventplanner.com</p>
 								</div>
 								<div class="item-sosmed">
 									<ul>
@@ -187,7 +187,7 @@
 								<div class="text-infor">
 									<ul>
 										<li class="nav-item">
-											<a href="" class="nav-link">Home</a>
+											<a href="/" class="nav-link">Home</a>
 										</li>
 										<li class="nav-item">
 											<a href="" class="nav-link"> About</a>
@@ -220,13 +220,13 @@
 		<div class="container">
 			<div class="inner text-content mx-auto">
 				<div class="blocks-items d-flex justify-content-between ">
-					<div class="text-desc-copyright">
-						<p>Copyright © CV. Wedding Orgizer Dhewi Lestari - 2022. </p>
+					<div class="text-desc-copyright mx-auto">
+						<p> © 2022 CV. Wedding Orgizer Dhewi Lestari by <span> Davit</span>. All Rights Reserved. </p>
 					</div>
-					<div class="text-desc-by">
+					{{-- <div class="text-desc-by">
 						<p>Website design by Davit .</p>
 					</div>
-				</div>
+				</div> --}}
 			</div>
 		</div>
 	</div>

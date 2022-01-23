@@ -28,9 +28,10 @@ p {
 // Section prewedding
 .galeri-sect-2 {
     .blocks-items {
+        margin-top: 70px;
         .item-text {
             .text-title {
-                margin: 70px 0 30px;
+                margin-bottom: 30px;
                 h3 {
                     font-family: $font-poppins;
                     font-weight: $medium;
@@ -38,16 +39,16 @@ p {
                 }
             }
             .text-desc {
-                margin-bottom: 50px;
+                // margin-bottom: 50px;
                 p {
                     line-height: 1.5;
                 }
             }
         }
         .item-pict {
-            margin-bottom: 100px;
+            margin: 100px 0 120px;
             .g-20 {
-                --bs-gutter-x: 20px;
+                --bs-gutter-x: 20px !important;
                 --bs-gutter-y: 20px;
                 img:hover {
                     box-shadow: 0 2px 5px 2px rgb(0 0 0 / 20%), 0 8px 10px 0 rgb(0 0 0 / 19%);

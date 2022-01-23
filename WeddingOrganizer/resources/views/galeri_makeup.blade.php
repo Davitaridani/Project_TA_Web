@@ -40,41 +40,89 @@
 
 				<div class="item-pict">
 					<div class="row g-20" data-masonry='{"percentPosition": true }'>
-						<div class="col-md-6 col-lg-3">
-							<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (1).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4">
+							<a href="{{ asset('assets/img/make-up/make-up (1).jpg') }}" data-lightbox="roadtrip"
+								data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (1).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (2).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4">
+							<a href="{{ asset('assets/img/make-up/make-up (2).jpg') }}" data-lightbox="roadtrip"
+								data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (2).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (3).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4">
+							<a href="{{ asset('assets/img/make-up/make-up (3).jpg') }}" data-lightbox="roadtrip"
+								data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (3).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (4).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4">
+							<a href="{{ asset('assets/img/make-up/make-up (4).jpg') }}" data-lightbox="roadtrip"
+								data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (4).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (5).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4">
+							<a href="{{ asset('assets/img/make-up/make-up (5).jpg') }}" data-lightbox="roadtrip"
+								data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (5).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (6).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4">
+							<a href="{{ asset('assets/img/make-up/make-up (6).jpg') }}" data-lightbox="roadtrip"
+								data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (6).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (7).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4">
+							<a href="{{ asset('assets/img/make-up/make-up (7).jpg') }}" data-lightbox="roadtrip"
+								data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (7).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (8).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4">
+							<a href="{{ asset('assets/img/make-up/make-up (8).jpg') }}" data-lightbox="roadtrip"
+								data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (8).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (9).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4">
+							<a href="{{ asset('assets/img/make-up/make-up (9).jpg') }}" data-lightbox="roadtrip"
+								data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (9).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (10).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4">
+							<a href="{{ asset('assets/img/make-up/make-up (10).jpg') }}" data-lightbox="roadtrip"
+								data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (10).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (11).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4">
+							<a href="{{ asset('assets/img/make-up/make-up (11).jpg') }}" data-lightbox="roadtrip"
+								data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (11).jpg') }}" alt="">
+							</a>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (12).jpg') }}" alt="">
+						<div class="col-md-6 col-lg-4">
+							<a href="{{ asset('assets/img/make-up/make-up (12).jpg') }}" data-lightbox="roadtrip"
+								data-title="My caption">
+
+								<img class="img img-fluid" src="{{ asset('assets/img/make-up/make-up (12).jpg') }}" alt="">
+							</a>
 						</div>
 
 					</div>

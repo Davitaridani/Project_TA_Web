@@ -3,8 +3,6 @@
 @section('content')
 
 
-
-
 {{-- Saection paket wedding ect 2 --}}
 <section class="section-paket-wedding-sect-2">
 	<div class="container">
