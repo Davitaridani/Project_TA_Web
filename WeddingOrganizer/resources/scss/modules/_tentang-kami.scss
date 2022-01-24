@@ -20,13 +20,38 @@ $semibold:600;
 $bold: 700;
 $black: 900;
 // Section tentang Kami sect 2
-.section-tentangKami-sect-2 {
+.hero-image-banner-paralax {
     height: 60vh;
-    background-position: center center;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
+    align-items: center;
     .blocks-items {
-        h3 {
-            z-index: 999;
+        .text-title {
+            padding-top: 50px;
+            h3 {
+                font-family: $font-halant;
+                font-weight: $semibold;
+                z-index: 3;
+                font-size: 50px;
+                position: relative;
+                color: #fff;
+                text-shadow: 1px 2px rgb(89, 88, 88);
+            }
+        }
+    }
+}
+
+// Section tentang kami sect 2
+.section-tentangKami-sect-2 {
+    .blocks-items {
+        padding-top: 100px;
+        .logo {
+            img {
+                width: 100px;
+            }
         }
     }
 }

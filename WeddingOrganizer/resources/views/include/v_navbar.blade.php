@@ -1,6 +1,6 @@
 {{-- Navbar --}}
 
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
 	<div class="container">
 		<div class="item-logo">
 			<a class="navbar-brand" href="/">

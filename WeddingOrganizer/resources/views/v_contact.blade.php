@@ -3,18 +3,22 @@
 @section('content')
 
 {{-- Section Banner --}}
-<section class="section-hero-image-banner">
+<section class="section-hero-image-banner hero-image-banner-paralax" data-parallax="scroll" data-z-index="1"
+	data-image-src="../assets/img/banner-contact.jpg">
 	{{-- <div class="background-banner-contact" style="background-image:url(assets/img/banner-contact.jpg)"></div> --}}
 	<div class="container-fluid p-0 ">
 		<div class="inner text-content">
 			<div class="blocks-items">
-				<div class="pict">
+				{{-- <div class="pict">
 					<div alt="" class="background-banner-contact" style="background-image:url(assets/img/banner-contact.jpg)">
 
 						<div class="text-title text-center text-white">
 							<h5>Contact Us</h5>
 						</div>
 					</div>
+				</div> --}}
+				<div class="text-title text-center">
+					<h3>Contact Us</h3>
 				</div>
 			</div>
 		</div>

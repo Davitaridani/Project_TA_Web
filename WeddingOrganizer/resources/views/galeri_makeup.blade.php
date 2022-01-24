@@ -4,17 +4,13 @@
 
 {{-- Section hero banner --}}
 
-<section class="section-hero-image-banner">
+<section class="section-hero-image-banner hero-image-banner-paralax " data-parallax="scroll" data-z-index="1"
+	data-image-src="../assets/img/banner-make-up.jpg">
 	<div class="container-fluid p-0 ">
 		<div class="inner text-content">
 			<div class="blocks-items">
-				<div class="pict">
-					<div alt="" class="background-banner-contact" style="background-image:url(assets/img/banner-make-up.jpg)">
-
-						<div class="text-title text-center text-light fw-bold">
-							<h5>Make Up</h5>
-						</div>
-					</div>
+				<div class="text-title text-center">
+					<h3>Make Up</h3>
 				</div>
 			</div>
 		</div>
