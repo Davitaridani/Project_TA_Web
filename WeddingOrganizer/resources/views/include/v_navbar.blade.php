@@ -16,7 +16,7 @@
 					<a class="nav-link active" aria-current="page" href="/">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Features</a>
+					<a class="nav-link" href="/tentang-kami">Tentang Kami</a>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"

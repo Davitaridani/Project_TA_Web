@@ -33,3 +33,4 @@ route::view('/paket-wedding', 'paket_wedding');
 route::view('/paket-prewedding', 'paket_prewedding');
 route::view('/paket-lamaran', 'paket_lamaran');
 route::view('/detail-paket-wedding', 'detail_paket_wedding');
+route::view('/tentang-kami', 'tentang_kami');
