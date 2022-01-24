@@ -20,7 +20,6 @@
 		</div>
 </section>
 
-
 {{-- Section galeri prewedding sect 2 --}}
 <section class="section-prewedding-sect-2 galeri-sect-2">
 	<div class="container">

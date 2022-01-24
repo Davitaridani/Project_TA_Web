@@ -135,12 +135,14 @@
 								<div class="item-sosmed">
 									<ul>
 										<li class="nav-item">
-											<a href="#" class="nav-link text-secondary"><span class="iconify"
-													data-icon="entypo-social:facebook" data-width="20"></span>
+											<a href="https://web.facebook.com/profile.php?id=100007898836533"
+												class="nav-link text-secondary"><span class="iconify" data-icon="entypo-social:facebook"
+													data-width="20"></span>
 											</a>
 										</li>
 										<li class="nav-item">
-											<a href="#" class="nav-link text-secondary"><span class="iconify" data-icon="ri:instagram-fill"
+											<a href="https://www.instagram.com/dewilestari_makeup_artist/?hl=en"
+												class="nav-link text-secondary"><span class="iconify" data-icon="ri:instagram-fill"
 													data-width="20"></span>
 											</a>
 										</li>

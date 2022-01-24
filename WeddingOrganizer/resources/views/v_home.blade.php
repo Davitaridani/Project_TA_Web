@@ -131,18 +131,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<img class="img img-fluid" src="" alt="">
-						{{-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore atque sequi corporis quam,
-							et
-							optio
-							perspiciatis maxime veritatis praesentium inventore!</p> --}}
-					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	{{--
 </section>
 
 {{-- Section Home sect 3 --}}
@@ -158,84 +150,87 @@
 						<p>Ini adalah ada beberapa alasan kenapa anda harus memilih jasa Dhewi Lestari sebagai partner anda</p>
 					</div>
 				</div>
-			</div>
-		</div>
 
-		<div class="row justify-content-evenly">
-			<div class="col-md-4">
-				<div class="item-desc text-center">
-					<div class="icons">
-						<span class="iconify" data-icon="ic:outline-miscellaneous-services" data-width="19"></span>
-					</div>
-					<div class="text-title">
-						<h5>Kami Melayani</h5>
-					</div>
-					<div class="text-desc">
-						<p>Kami memberikan pelayanan terbaik kepada klien dan membuat mereka bahagia dengan apa yang kami lakukan.
-							Kita melayani,
-							tidak untuk dilayani</p>
-					</div>
-				</div>
-			</div>
 
-			<div class="col-md-4">
-				<div class="item-desc text-center">
-					<div class="icons">
-						<span class="iconify" data-icon="bi:person-circle" data-width="19"></span>
+				<div class="row justify-content-evenly">
+					<div class="col-md-4">
+						<div class="item-desc text-center">
+							<div class="icons">
+								<span class="iconify" data-icon="ic:outline-miscellaneous-services" data-width="19"></span>
+							</div>
+							<div class="text-title">
+								<h5>Kami Melayani</h5>
+							</div>
+							<div class="text-desc">
+								<p>Kami memberikan pelayanan terbaik kepada klien dan membuat mereka bahagia dengan apa yang kami
+									lakukan.
+									Kita melayani,
+									tidak untuk dilayani</p>
+							</div>
+						</div>
 					</div>
-					<div class="text-title">
-						<h5>Klient</h5>
-					</div>
-					<div class="text-desc">
-						<p>Kami menjadikan klien sebagai pusat dari apa yang kami kerjakan dan kami memastikan mereka nyaman dan
-							semua kebutuhan
-							yang diperlukan terpenuhi.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="item-desc text-center">
-					<div class="icons">
-						<span class="iconify" data-icon="eos-icons:service-outlined" data-width="19"></span>
-					</div>
-					<div class="text-title">
-						<h5>Saling Percaya</h5>
-					</div>
-					<div class="text-desc">
-						<p>Kepercayaan adalah pondasi yang memperkuat layanan kami dan kepercayaan klien pada kami akan kami jaga
-							dengan sebaik
-							mungkin.</p>
-					</div>
-				</div>
-			</div>
 
-			<div class="col-md-4">
-				<div class="item-desc text-center">
-					<div class="icons">
-						<span class="iconify" data-icon="mdi:ticket" data-width="19"></span>
+					<div class="col-md-4">
+						<div class="item-desc text-center">
+							<div class="icons">
+								<span class="iconify" data-icon="bi:person-circle" data-width="19"></span>
+							</div>
+							<div class="text-title">
+								<h5>Klient</h5>
+							</div>
+							<div class="text-desc">
+								<p>Kami menjadikan klien sebagai pusat dari apa yang kami kerjakan dan kami memastikan mereka nyaman dan
+									semua kebutuhan
+									yang diperlukan terpenuhi.</p>
+							</div>
+						</div>
 					</div>
-					<div class="text-title">
-						<h5>Unggul dalam Integritas</h5>
+					<div class="col-md-4">
+						<div class="item-desc text-center">
+							<div class="icons">
+								<span class="iconify" data-icon="eos-icons:service-outlined" data-width="19"></span>
+							</div>
+							<div class="text-title">
+								<h5>Saling Percaya</h5>
+							</div>
+							<div class="text-desc">
+								<p>Kepercayaan adalah pondasi yang memperkuat layanan kami dan kepercayaan klien pada kami akan kami
+									jaga
+									dengan sebaik
+									mungkin.</p>
+							</div>
+						</div>
 					</div>
-					<div class="text-desc">
-						<p>Integritas sangat penting. Kami memberikan integritas penuh untuk apa yang kami lakukan dan berikan
-							kepada klien</p>
-					</div>
-				</div>
-			</div>
 
-			<div class="col-md-4">
-				<div class="item-desc text-center">
-					<div class="icons">
-						<span class="iconify" data-icon="clarity:group-solid" data-width="19"></span>
+					<div class="col-md-4">
+						<div class="item-desc text-center">
+							<div class="icons">
+								<span class="iconify" data-icon="mdi:ticket" data-width="19"></span>
+							</div>
+							<div class="text-title">
+								<h5>Unggul dalam Integritas</h5>
+							</div>
+							<div class="text-desc">
+								<p>Integritas sangat penting. Kami memberikan integritas penuh untuk apa yang kami lakukan dan berikan
+									kepada klien</p>
+							</div>
+						</div>
 					</div>
-					<div class="text-title">
-						<h5>Hargai Anggota</h5>
-					</div>
-					<div class="text-desc">
-						<p>Kami menghargai, memberikan tantangan, dan menghargai para member. Menghargai pekerjaan anggota kami
-							sangat penting.
-							Karena tanpa mereka kita bukanlah apa-apa.</p>
+
+					<div class="col-md-4">
+						<div class="item-desc text-center">
+							<div class="icons">
+								<span class="iconify" data-icon="clarity:group-solid" data-width="19"></span>
+							</div>
+							<div class="text-title">
+								<h5>Hargai Anggota</h5>
+							</div>
+							<div class="text-desc">
+								<p>Kami menghargai, memberikan tantangan, dan menghargai para member. Menghargai pekerjaan anggota kami
+									sangat penting.
+									Karena tanpa mereka kita bukanlah apa-apa.</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -432,8 +427,9 @@
 
 
 {{-- Section home sect 6 --}}
-<section class="section-home-sect-6">
-	<div class="bg-parallax" data-parallax="scroll" data-z-index="1" data-image-src="../assets/img/3.jpg">
+<section class="section-home-sect-6" data-parallax="scroll" data-z-index="1"
+	data-image-src="../assets/img/bg-paralax.jpg">
+	<div class="bg-parallax">
 		<div class="container">
 			<div class="inner text-content">
 				<div class="blocks-items">
@@ -447,13 +443,12 @@
 						</div>
 					</div>
 					<div class="testimoni-carousel owl-carousel owl-theme owl-loaded">
-
 						<div class="item-testimoni">
 							<div class="pict">
 								<img src="{{ asset('assets/img/card-carousel-1.jpg') }}" alt="">
 							</div>
 							<div class="item-text">
-								<div class="text-title">
+								<div class="title">
 									<h3>Sinta</h3>
 								</div>
 								<div class="text-desc">
@@ -468,7 +463,7 @@
 								<img src="{{ asset('assets/img/card-carousel-2.jpg') }}" alt="">
 							</div>
 							<div class="item-text">
-								<div class="text-title">
+								<div class="title">
 									<h3>Firda</h3>
 								</div>
 								<div class="text-desc">
@@ -487,7 +482,7 @@
 								<img src="{{ asset('assets/img/card-carousel-3.jpg') }}" alt="">
 							</div>
 							<div class="item-text">
-								<div class="text-title">
+								<div class="title">
 									<h3>Dinda</h3>
 								</div>
 								<div class="text-desc">
@@ -504,7 +499,7 @@
 								<img src="{{ asset('assets/img/card-carousel-4.jpg') }}" alt="">
 							</div>
 							<div class="item-text">
-								<div class="text-title">
+								<div class="title">
 									<h3>Salsa</h3>
 								</div>
 								<div class="text-desc">
@@ -521,7 +516,7 @@
 								<img src="{{ asset('assets/img/card-carousel-5.jpg') }}" alt="">
 							</div>
 							<div class="item-text">
-								<div class="text-title">
+								<div class="title">
 									<h3>Irma</h3>
 								</div>
 								<div class="text-desc">
@@ -540,7 +535,7 @@
 								<img src="{{ asset('assets/img/card-carousel-2.jpg') }}" alt="">
 							</div>
 							<div class="item-text">
-								<div class="text-title">
+								<div class="title">
 									<h3>Sindi</h3>
 								</div>
 								<div class="text-desc">
@@ -557,7 +552,7 @@
 								<img src="{{ asset('assets/img/card-carousel-6.jpg') }}" alt="">
 							</div>
 							<div class="item-text">
-								<div class="text-title">
+								<div class="title">
 									<h3>Putri</h3>
 								</div>
 								<div class="text-desc">
@@ -574,7 +569,7 @@
 								<img src="{{ asset('assets/img/card-carousel-7.jpg') }}" alt="">
 							</div>
 							<div class="item-text">
-								<div class="text-title">
+								<div class="title">
 									<h3>Fina</h3>
 								</div>
 								<div class="text-desc">
@@ -591,7 +586,7 @@
 								<img src="{{ asset('assets/img/card-carousel-8.jpg') }}" alt="">
 							</div>
 							<div class="item-text">
-								<div class="text-title">
+								<div class="title">
 									<h3>Dini</h3>
 								</div>
 								<div class="text-desc">
@@ -608,15 +603,66 @@
 			</div>
 		</div>
 	</div>
+</section>
 
+{{-- Section home 7 --}}
+<section class="section-home-sect-7">
+	<div class="container">
+		<div class="inner text-content">
+			<div class="blocks-items">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="item-text text-center">
+							<div class="text-title">
+								<h3>1200 <span class="iconify" data-icon="charm:plus" data-width="50"></span></h3>
+							</div>
+							<div class="text-desc">
+								<p>Client</p>
+								<p>Kami membantu klien merencanakan momen bahagianya, mulai dari mendesain, menyediakan segala jasa
+									pendukung dan
+									mengorganisir acara.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item-text text-center">
+							<div class="text-title">
+								<h3>1500 <span class="iconify" data-icon="charm:plus" data-width="50"></span></h3>
+							</div>
+							<div class="text-desc">
+								<p>Event</p>
+								<p>Kami melayani event di Jember dan sekitarnya, mulai dari lamaran, akad nikah, wedding, prewedding,
+									dan
+									sebagainya.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item-text text-center">
+							<div class="text-title">
+								<h3>50 <span class="iconify" data-icon="charm:plus" data-width="50"></span></h3>
+							</div>
+							<div class="text-desc">
+								<p>Partners</p>
+								<p>Kami memiliki partner atau tim yang terdiri dari beberapa vendor pendukung wedding, gedung
+									serbaguna, hotel dan
+									sebagainya.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
 </section>
 
 
 {{-- Section home sect-7--}}
-<section class="section-home-sect-7">
+<section class="section-home-sect-8">
 	<div class="container-fluid">
 		<div class="inner text-content">
-			<div class="blocks-items m-0">
+			<div class="blocks-items">
 				<hr>
 				<div class="owl-carousel owl-theme mx-auto" id="owl-logo">
 					<div class="item">
@@ -661,8 +707,8 @@
 	</div>
 </section>
 
-{{-- Section home sect 8 --}}
-<section class="section-home-sect-8">
+{{-- Section home sect 9 --}}
+{{-- <section class="section-home-sect-9">
 	<div class="container">
 		<div class="inner text-content">
 			<div class="blocks-items">
@@ -693,6 +739,29 @@
 				</div>
 			</div>
 		</div>
+</section> --}}
+
+{{-- Section home sect 9 --}}
+<section class="section-home-sect-9">
+	<div class="container">
+		<div class="inner text-content">
+			<div class="blocks-items">
+				<div class="item-text text-center">
+					<div class="text-title">
+						<h3>Sukseskan Acaramu Bersama Kami</h3>
+					</div>
+					<div class="text-desc">
+						<p>Karena Kita Ditetapkan untuk Petualangan Hidup Baru Bersama</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 mx-auto">
+						<img src="{{ asset('assets/img/1.jpg') }}" alt="" class="img img-fluid ">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 

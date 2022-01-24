@@ -33,7 +33,6 @@ p {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        // background-image: url('../assets/img/3.jpg');
         background-attachment: fixed;
         .img-fluid {
             position: absolute;
@@ -59,6 +58,7 @@ p {
         transform: translateY(-50%);
         color: #fff;
         padding: 0 30px;
+        // z-index: 1000;
         .text-title {
             padding-bottom: 30px;
             h1 {
@@ -138,15 +138,19 @@ p {
 // Section home 2 
 .section-home-sect-2 {
     .blocks-items {
-        margin: 0 auto;
-        .text-title h1 {
-            color: $color-pink2;
-            font-family: $font-halant;
-            font-size: 30px;
-            margin: 50px 0;
-            letter-spacing: 1px;
+        margin: 100px 0 80px;
+        .text-title {
+            margin-bottom: 40px;
+            h1 {
+                color: $color-pink2;
+                font-family: $font-halant;
+                font-size: 40px;
+                letter-spacing: 1px;
+                line-height: 1.2;
+            }
         }
         .text-desc {
+            // margin-bottom: 20px;
             p:nth-child(1) {
                 font-family: $font-raleway;
                 font-weight: $reguler;
@@ -184,10 +188,12 @@ p {
 
 // Section home 3
 .section-home-sect-3 {
+    background-color: $bg-section;
     .blocks-items {
+        padding: 100px 0 80px;
         .item-text {
             .text-title {
-                padding: 90px 0 15px;
+                padding: 0 0 15px;
                 h3 {
                     font-family: $font-poppins;
                     color: #333;
@@ -196,11 +202,12 @@ p {
                 }
             }
             .text-desc {
-                margin-bottom: 40px;
+                margin-bottom: 50px;
                 p {
-                    font-size: 17px;
                     font-family: $font-raleway;
                     font-weight: $reguler;
+                    font-size: 17px;
+                    line-height: 1.5;
                 }
             }
         }
@@ -216,33 +223,33 @@ p {
                 }
             }
         }
-    }
-    .item-desc {
-        .icons {
-            margin-bottom: 30px;
-            .iconify {
-                background-color: #ee9e9e;
-                color: #fff;
-                height: 50px;
-                width: 50px;
-                padding: 10px;
-                border-radius: 50%;
+        .item-desc {
+            .icons {
+                margin-bottom: 30px;
+                .iconify {
+                    background-color: #ee9e9e;
+                    color: #fff;
+                    height: 50px;
+                    width: 50px;
+                    padding: 10px;
+                    border-radius: 50%;
+                }
             }
-        }
-        .text-title {
-            margin-bottom: 10px;
-            h5 {
-                font-family: $font-poppins;
-                font-weight: $medium;
-                font-size: 20px;
+            .text-title {
+                margin-bottom: 10px;
+                h5 {
+                    font-family: $font-poppins;
+                    font-weight: $medium;
+                    font-size: 20px;
+                }
             }
-        }
-        .text-desc {
-            margin-bottom: 30px;
-            p {
-                font-family: $font-raleway;
-                line-height: 1.5;
-                font-size: 17px;
+            .text-desc {
+                margin-bottom: 30px;
+                p {
+                    font-family: $font-raleway;
+                    line-height: 1.5;
+                    font-size: 17px;
+                }
             }
         }
     }
@@ -251,9 +258,10 @@ p {
 // Section home 4
 .section-home-sect-4 {
     .blocks-items {
+        padding: 71px 0;
         .item-text {
             .text-title {
-                margin: 85px 0 15px;
+                margin-bottom: 15px;
                 h3 {
                     font-family: $font-poppins;
                     color: #333;
@@ -286,16 +294,17 @@ p {
 
 // Section Home 5 
 .section-home-sect-5 {
-    // background-color: $bg-section;
+    background-color: $bg-section;
     .blocks-items {
+        padding: 100px 0 20px;
         .item-text {
             .text-title {
-                margin-top: 90px;
+                margin-bottom: 15px;
                 h3 {
                     font-family: $font-poppins;
                     font-weight: $reguler;
-                    line-height: 1.8;
-                    letter-spacing: 1.5px;
+                    // line-height: 1.8;
+                    letter-spacing: 1.2px;
                 }
             }
             .text-desc {
@@ -303,7 +312,7 @@ p {
                 p {
                     font-weight: $reguler;
                     font-family: $font-raleway;
-                    font-size: 22px;
+                    font-size: 17px;
                 }
             }
         }
@@ -340,7 +349,6 @@ p {
 
 // Section home sect 6
 .section-home-sect-6 {
-    // background-color: $bg-section;
     .bg-parallax {
         // background: url('../assets/img/3.jpg') no-repeat center;
         background-size: cover;
@@ -361,15 +369,26 @@ p {
             .text-title {
                 margin-bottom: 15px;
                 h3 {
-                    font-size: 30px;
+                    font-family: $font-raleway;
+                    font-weight: $semibold;
+                    letter-spacing: 1px;
+                    font-size: 50px;
+                    text-shadow: 2px 2px $color-pink2;
+                    color: #fff;
                 }
             }
             .text-desc {
                 margin-bottom: 70px;
+                p {
+                    font-family: $font-raleway;
+                    // text-shadow: 1px 1px #fff;
+                    font-weight: $reguler;
+                    font-size: 17px;
+                    color: #000;
+                }
             }
         }
         .testimoni-carousel {
-            // background-color: rgb(84, 75, 75);
             text-align: center;
             margin: 0 20px;
             .owl-dots {
@@ -392,7 +411,7 @@ p {
             .item-testimoni {
                 border-radius: 100px 0 100px;
                 // margin: 30px 0;
-                background-color: #fff;
+                background-color: rgba(255, 255, 255, 0.748);
                 padding: 50px 0;
                 .pict {
                     width: 100px;
@@ -407,22 +426,26 @@ p {
                 }
             }
             .item-text {
-                .text-title {
+                .title {
                     text-transform: uppercase;
                     margin: 20px 0 10px;
                     h3 {
                         font-size: 18px;
-                        // color: $color-pink;
+                        font-family: $font-poppins;
                     }
                 }
                 .text-desc {
                     padding: 0 18px;
                     hr {
                         height: 2px;
+                        width: 100px;
+                        margin: 0 auto;
                         color: #fa8282;
                     }
                     p {
-                        line-height: 1.3;
+                        font-family: $font-raleway;
+                        padding-top: 20px;
+                        line-height: 1.4;
                         height: 100px;
                     }
                 }
@@ -431,9 +454,47 @@ p {
     }
 }
 
-// Section home sect 7
+// Section home sect 7 
 .section-home-sect-7 {
+    background-color: #f9f9f9;
+    // height: 200px;
     .blocks-items {
+        padding: 100px 0 80px;
+        .item-text {
+            .text-title {
+                margin-bottom: 20px;
+                h3 {
+                    color: $color-pink2;
+                    font-family: $font-halant;
+                    font-weight: $semibold;
+                    font-size: 70px;
+                    .iconify {
+                        margin-left: -15px;
+                    }
+                }
+            }
+            .text-desc {
+                p:nth-child(1) {
+                    font-family: $font-poppins;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                }
+                p:nth-child(2) {
+                    font-size: 17px;
+                    font-family: $font-raleway;
+                    margin-bottom: 20px;
+                    width: 360px;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+}
+
+// Section home sect 8
+.section-home-sect-8 {
+    .blocks-items {
+        margin: 90px 0 110px;
         .owl-carousel {
             .item {
                 .logo {
@@ -475,13 +536,26 @@ p {
 }
 
 // section Home sect 8 {
-.section-home-sect-8 {
+.section-home-sect-9 {
     .blocks-items {
+        .text-title {
+            margin-bottom: 20px;
+            h3 {
+                font-weight: $reguler;
+                font-size: 30px;
+            }
+        }
+        .text-desc {
+            margin-bottom: 50px;
+            p {
+                font-size: 17px;
+                font-family: $font-raleway;
+            }
+        }
         .row {
-            .link-yt {
-                iframe {
-                    width: 550px;
-                    height: 330px;
+            .col-12 {
+                img {
+                    border-radius: 20px;
                 }
             }
         }

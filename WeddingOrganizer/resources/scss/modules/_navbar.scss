@@ -177,4 +177,29 @@ $black: 900;
             }
         }
     }
+    .navbar-nav {
+        .nav-item {
+            margin-right: 20px;
+            .active {
+                color: #fa8282 !important;
+            }
+            a {
+                font-family: $font-poppins;
+                font-weight: $medium;
+                font-size: 15px;
+                text-transform: uppercase;
+                letter-spacing: 0.6px;
+            }
+            a:hover {
+                color: #fa8282 !important;
+            }
+            .dropdown-menu {
+                a {
+                    text-transform: capitalize;
+                    font-weight: $reguler;
+                    font-family: $font-raleway;
+                }
+            }
+        }
+    }
 }

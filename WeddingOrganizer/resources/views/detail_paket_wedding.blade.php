@@ -93,7 +93,7 @@
 
 					<div class="col-md-5">
 						<div class="pict">
-							<img src="{{ asset('assets/img/thumbnail (7).jpg') }}" alt="" class="img img-fluid">
+							<img src="{{ asset('assets/img/thumbnail (2).jpg') }}" alt="" class="img img-fluid">
 							<img src="{{ asset('assets/img/home-6.jpg') }}" alt="" class="img img-fluid w-100 pt-0">
 						</div>
 					</div>
