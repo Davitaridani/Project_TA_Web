@@ -19,7 +19,11 @@
 	<link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
 
+	{{-- Link CDN AOS --}}
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+	{{-- AOS Animsi --}}
+	<link rel="stylesheet" href="{{ asset('css/aos.css') }}">
 
 	{{-- OWL Carousel --}}
 	<link rel="stylesheet"
@@ -51,8 +55,6 @@
 	</div> --}}
 
 
-
-
 	{{-- Link BS 5 --}}
 	<script src="{{ url('js/bootstrap.bundle.min.js') }}"></script>
 
@@ -66,10 +68,22 @@
 	{{-- Owl Card --}}
 	<script src="{{ asset('js/owl-card.js') }}"></script>
 
+	{{-- AOS Animasi --}}
+	<script src="{{ asset('js/aos.js') }}"></script>
+	<script>
+		AOS . init ( ) ;
+	</script>
 
+
+	{{-- LINK CDN OAS --}}
+	<script src=" https://unpkg.com/aos@next/dist/aos.js "> </script>
+	<script>
+		AOS . init ( ) ;
+	</script>
 
 	{{-- OWL carousel jquery --}}
-	<script src="{{ asset('js/jquery.min.js') }}"></script>
+	<script src="{{ asset('js/jquery.min.js') }}">
+	</script>
 
 	{{-- Owl carousel inlcude JS --}}
 	<script src="{{ asset('js/owl.carousel.min.js') }}"></script>

@@ -45,9 +45,9 @@
 				<div class="item-pict">
 					<div class="row g-20" data-masonry='{"percentPosition": true }'>
 						<div class="col-md-6 col-lg-4">
-							<a href="{{ asset('assets/img/prewedding/prewedding (8).jpg') }}" data-lightbox="roadtrip"
+							<a href="{{ asset('assets/img/prewedding/prewedding (10).jpg') }}" data-lightbox="roadtrip"
 								data-title="My caption">
-								<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (8).jpg') }}" alt="">
+								<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (10).jpg') }}" alt="">
 							</a>
 						</div>
 						<div class="col-md-6 col-lg-4">
@@ -116,8 +116,6 @@
 								<img class="img img-fluid" src="{{ asset('assets/img/prewedding/prewedding (22).jpg') }}" alt="">
 							</a>
 						</div>
-
-
 					</div>
 				</div>
 			</div>

@@ -77,3 +77,7 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+
+
+// AOS JS Animasi
+// AOS.init();

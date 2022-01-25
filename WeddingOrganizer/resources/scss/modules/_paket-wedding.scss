@@ -63,12 +63,15 @@ $black: 900;
             .pict {
                 padding: 15px;
                 margin-bottom: -10px;
+                transition: 0.3s ease-in-out;
+                transform: scale(1);
                 img {
                     border-radius: 15px;
                     height: 240px;
-                    transform: scale(1);
-                    transition: 0.3s ease-in-out;
+                    padding: 8px;
                     cursor: pointer;
+                    transition: 0.3s ease-in-out;
+                    transform: scale(1);
                 }
                 .img:hover {
                     transform: scale(1.1);

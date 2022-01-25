@@ -1,19 +1,16 @@
 @extends('layout.main')
 @section('content')
 
-
 {{-- Owl Carousel --}}
-
 <section class="section-img-banner owl-carousel owl-theme owl-slider" id="slider-home">
 	<div class="slide slide-1">
-		<img src="{{ url('../assets/img/banner-1.jpg', []) }} " class="img-fluid" alt="...">
+		<img src="{{ url('../assets/img/banner-2.jpg', []) }} " class="img-fluid" alt="...">
 		<div class="slide-content">
-			<div class="text-title">
-				<h1>Kreatif dan Elegan</h1>
+			<div class="text-title text-capitalize">
+				<h1>Pelayanan dengan kualitas tinggi adalah kunci kesuksesan kami</h1>
 			</div>
-			<div class="text-desc">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum accusamus atque voluptatum repellat
-					voluptates nam ipsum aspernatur .</p>
+			<div class="text-desc" data-aos="fade-down" data-aos-offset="500" data-aos-delay="50" data-aos-duration="3000">
+				<p>Pelayanan yang baik dan memenuhi seluruh kebutuhan klien adalah prioritas kami.</p>
 			</div>
 			<div class="btns-slide">
 				<a href="">Selengkapnya</a>
@@ -21,13 +18,13 @@
 		</div>
 	</div>
 	<div class="slide slide-2">
-		<img src="{{ url('../assets/img/banner-2.jpg', []) }} " class="img-fluid" alt="...">
+		<img src="{{ url('../assets/img/banner-3.jpg', []) }} " class="img-fluid" alt="...">
 		<div class="slide-content">
-			<div class="text-title">
-				<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam.</h1>
+			<div class="text-title text-capitalize">
+				<h1>Momen berkesan yang tidak terlupakan hanya untuk kamu</h1>
 			</div>
 			<div class="text-desc">
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae nisi a explicabo ratione ipsum quo pariatur!
+				<p>Pelayanan yang baik dan memenuhi seluruh kebutuhan klien adalah prioritas kami
 				</p>
 			</div>
 			<div class="btns-slide">
@@ -36,14 +33,13 @@
 		</div>
 	</div>
 	<div class="slide slide-3">
-		<img src="{{ url('../assets/img/banner-3.jpg', []) }} " class="img-fluid" alt="...">
+		<img src="{{ url('../assets/img/banner-1.jpg', []) }} " class="img-fluid" alt="...">
 		<div class="slide-content">
 			<div class="text-title">
-				<h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+				<h1>Untuk membawa cinta, tawa, dan kebahagiaan selamanya</h1>
 			</div>
 			<div class="text-desc">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ratione, neque tenetur ab ipsa vitae voluptas
-					mollitia ducimus!</p>
+				<p>Harapan kami adalah kebahagiaan serta keberkatan untuk semua klien kami</p>
 			</div>
 			<div class="btns-slide">
 				<a href="">Selengkapnya</a>
@@ -60,13 +56,15 @@
 	<div class="container">
 		<div class="inner text-content">
 			<div class="blocks-items">
-				<div class="text-title  mx-auto text-uppercase">
+				<div class="text-title mx-auto text-uppercase" data-aos="fade-down" data-aos-offset="500" data-aos-delay="50"
+					data-aos-duration="3000">
 					<h1>Welcome to <br>Wedding Orgainzer Dhewi lestari</h1>
 				</div>
 				<div class="item">
 					<div class="row ">
 						<div class="col-md-6">
-							<div class="text-desc">
+							<div class="text-desc" data-aos="fade-right" data-aos-offset="500" data-aos-delay="500"
+								data-aos-duration="2000">
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sequi laudantium odio atque
 									blanditiis, culpa itaque et rerum possimus commodi. Molestias accusamus perferendis
 									reiciendis sint.
@@ -84,7 +82,8 @@
 									quidem.</p>
 							</div>
 						</div>
-						<div class="col-md-5">
+						<div class="col-md-5" data-aos="fade-left" data-aos-offset="500" data-aos-delay="100"
+							data-aos-duration="3000">
 							<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
 								<div class="carousel-indicators">
 									<button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
@@ -151,11 +150,10 @@
 					</div>
 				</div>
 
-
 				<div class="row justify-content-evenly">
 					<div class="col-md-4">
 						<div class="item-desc text-center">
-							<div class="icons">
+							<div class="icons" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="500" data-aos-duration="2000">
 								<span class="iconify" data-icon="ic:outline-miscellaneous-services" data-width="19"></span>
 							</div>
 							<div class="text-title">
@@ -172,7 +170,7 @@
 
 					<div class="col-md-4">
 						<div class="item-desc text-center">
-							<div class="icons">
+							<div class="icons" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="500" data-aos-duration="2000">
 								<span class="iconify" data-icon="bi:person-circle" data-width="19"></span>
 							</div>
 							<div class="text-title">
@@ -187,7 +185,7 @@
 					</div>
 					<div class="col-md-4">
 						<div class="item-desc text-center">
-							<div class="icons">
+							<div class="icons" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="500" data-aos-duration="2000">
 								<span class="iconify" data-icon="eos-icons:service-outlined" data-width="19"></span>
 							</div>
 							<div class="text-title">
@@ -204,7 +202,7 @@
 
 					<div class="col-md-4">
 						<div class="item-desc text-center">
-							<div class="icons">
+							<div class="icons" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="500" data-aos-duration="2000">
 								<span class="iconify" data-icon="mdi:ticket" data-width="19"></span>
 							</div>
 							<div class="text-title">
@@ -219,7 +217,7 @@
 
 					<div class="col-md-4">
 						<div class="item-desc text-center">
-							<div class="icons">
+							<div class="icons" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="500" data-aos-duration="2000">
 								<span class="iconify" data-icon="clarity:group-solid" data-width="19"></span>
 							</div>
 							<div class="text-title">
@@ -244,7 +242,7 @@
 	<div class="container">
 		<div class="inner text-content">
 			<div class="blocks-items">
-				<div class="item-text text-center">
+				<div class="item-text text-center ">
 					<div class="text-title">
 						<h3>Jasa Apa yang Kami Sediakan?</h3>
 					</div>
@@ -256,7 +254,8 @@
 				<div class="blocks-pict">
 					<div class="row">
 						<div class="col-md-3">
-							<div class="items-card">
+							<div class="items-card" data-aos="flip-left" data-aos-offset="400"
+								data-aos-anchor-placement=" top-center " data-aos-delay="500" data-aos-duration="3000">
 								<div class="pict">
 									<img src="{{ asset('assets/img/home-1.jpg') }}" alt="" class="img img-fluid w-100">
 								</div>
@@ -267,7 +266,8 @@
 							</div>
 						</div>
 						<div class="col-md-3">
-							<div class="items-card">
+							<div class="items-card" data-aos="flip-left" data-aos-offset="400"
+								data-aos-anchor-placement=" top-center " data-aos-delay="500" data-aos-duration="3000">
 								<div class="pict">
 									<img src="{{ asset('assets/img/home-2.jpg') }}" alt="" class="img img-fluid w-100">
 								</div>
@@ -277,7 +277,8 @@
 							</div>
 						</div>
 						<div class="col-md-3">
-							<div class="items-card">
+							<div class="items-card" data-aos="flip-left" data-aos-offset="400"
+								data-aos-anchor-placement=" top-center " data-aos-delay="500" data-aos-duration="3000">
 								<div class="pict">
 									<img src="{{ asset('assets/img/home-3.jpg') }}" alt="" class="img img-fluid w-100">
 								</div>
@@ -287,7 +288,8 @@
 							</div>
 						</div>
 						<div class="col-md-3">
-							<div class="items-card">
+							<div class="items-card" data-aos="flip-left" data-aos-offset="400"
+								data-aos-anchor-placement=" top-center " data-aos-delay="500" data-aos-duration="3000">
 								<div class="pict">
 									<img src="{{ asset('assets/img/home-4.jpg') }}" alt="" class="img img-fluid w-100">
 								</div>
@@ -297,7 +299,8 @@
 							</div>
 						</div>
 						<div class="col-md-3">
-							<div class="items-card">
+							<div class="items-card" data-aos="flip-right" data-aos-offset="400"
+								data-aos-anchor-placement="top-center " data-aos-delay="500" data-aos-duration="3000">
 								<div class="pict ">
 									<img src="{{ asset('assets/img/home-5.jpg') }}" alt="" class="img img-fluid w-100">
 								</div>
@@ -307,7 +310,8 @@
 							</div>
 						</div>
 						<div class="col-md-3">
-							<div class="items-card">
+							<div class="items-card" data-aos="flip-right" data-aos-offset="400"
+								data-aos-anchor-placement=" top-center " data-aos-delay="500" data-aos-duration="3000">
 								<div class="pict">
 									<img src="{{ asset('assets/img/home-6.jpg') }}" alt="" class="img img-fluid w-100">
 								</div>
@@ -317,7 +321,8 @@
 							</div>
 						</div>
 						<div class="col-md-3">
-							<div class="items-card">
+							<div class="items-card" data-aos="flip-right" data-aos-offset="400"
+								data-aos-anchor-placement=" top-center " data-aos-delay="500" data-aos-duration="3000">
 								<div class="pict">
 									<img src="{{ asset('assets/img/home-7.jpg') }}" alt="" class="img img-fluid w-100">
 								</div>
@@ -327,7 +332,8 @@
 							</div>
 						</div>
 						<div class="col-md-3">
-							<div class="items-card">
+							<div class="items-card" data-aos="flip-right" data-aos-offset="400"
+								data-aos-anchor-placement=" top-center " data-aos-delay="500" data-aos-duration="3000">
 								<div class="pict">
 									<img src="{{ asset('assets/img/home-8.jpg') }}" alt="" class="img img-fluid w-100">
 								</div>
@@ -708,40 +714,6 @@
 </section>
 
 {{-- Section home sect 9 --}}
-{{-- <section class="section-home-sect-9">
-	<div class="container">
-		<div class="inner text-content">
-			<div class="blocks-items">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="item-text">
-							<div class="text-title">
-								<h3>Sukseskan Acaramu Bersama Kami</h3>
-							</div>
-							<div class="text-desc">
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit possimus eligendi in porro accusantium
-									distinctio quis. fuga distinctio et voluptatibus
-									accusamus, tenetur quis officia.</p>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quae molestias et inventore, nisi
-									ratione facere labore, voluptatem at, quasi vitae optio aliquid dolorum quas reiciendis porro? Ut,
-									fugiat rem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ab?</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="link-yt">
-							<iframe width="550" height="330" src="https://www.youtube.com/embed/kgMgKKeY7s8"
-								title="YouTube video player" frameborder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-								allowfullscreen></iframe>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-</section> --}}
-
-{{-- Section home sect 9 --}}
 <section class="section-home-sect-9">
 	<div class="container">
 		<div class="inner text-content">
@@ -755,7 +727,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-12 mx-auto">
+					<div class="col-12 mx-auto" data-aos="zoom-out-up" data-aos-delay="50" data-aos-duration="2000">
 						<img src="{{ asset('assets/img/1.jpg') }}" alt="" class="img img-fluid ">
 					</div>
 				</div>

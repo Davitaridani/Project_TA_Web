@@ -84,9 +84,12 @@ $black: 900;
             height: max-content;
             margin-top: 90px;
             .pict {
-                padding: 35px;
+                padding: 25px;
+                // transform: scale(1.1);
+                transition: 0.5s;
                 img {
-                    box-shadow: 0 5px 1px 0 rgb(0 0 0 / 20%), 0 10px 11px 0 rgb(0 0 0 / 19%)
+                    box-shadow: 0 5px 1px 0 rgb(0 0 0 / 20%), 0 10px 11px 0 rgb(0 0 0 / 19%);
+                    transition: 0.5s;
                 }
                 img:hover {
                     box-shadow: 00 4px 8px 0 rgb(0 0 0 / 20%), 0 5px 10px 0 rgb(0 0 0 / 19%);
