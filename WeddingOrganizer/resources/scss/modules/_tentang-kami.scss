@@ -34,9 +34,9 @@ $black: 900;
             h3 {
                 font-family: $font-halant;
                 font-weight: $semibold;
+                position: relative;
                 z-index: 3;
                 font-size: 50px;
-                position: relative;
                 color: #fff;
                 text-shadow: 1px 2px rgb(89, 88, 88);
             }

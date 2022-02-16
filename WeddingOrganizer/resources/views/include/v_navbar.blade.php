@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="item-logo">
 			<a class="navbar-brand" href="/">
-				<img src="{{ asset('assets/img/logo-DL.png') }}" alt=""> Dhewi <span>Lestari</span></a>
+				<img src="{{ asset('assets/img/logo-DL.png') }}" alt=""> <span></span></a>
 		</div>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
